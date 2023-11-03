@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Agenda</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/410/410909.png">
+</head>
+<body>
+    <div class="div-titulo">
+        <h1>INSCRIPCIÓN 2024</h1>
+    </div>
+    
+    <div class="contenedor">
+
+
+        <div class="div-formulario">
+            <h2>Registro de alumnos</h2>
+
+            <form action="#" id="formulario">
+                <input type="number" id="numero" placeholder="Numero">
+                <input type="text" id="nombre" placeholder="Nombre">
+                <input type="text" id="apellido" placeholder="Apellido">
+                <input type="text" id="estado_academico" placeholder="Estado academico">
+                <input type="text" id="domicilio" placeholder="Domicilio">
+                
+                <select name="Carrera" id="carrera">
+                    <option value="" disabled selected hidden>Selecciona una carrera</option>
+                     <option value=""> Programación</option>
+                     <option value=""> Higiene y Seguridad</option>
+                     <option value=""> Mecatronica </option>
+                     
+                     <input type="checkbox" name="genero" id="genero" value="femenino"> Femenino
+                     <input type="checkbox" name="genero" id="genero" value="masculino"> Masculino
+                     <input type="checkbox" name="genero" id="genero" value="otro"> Otro
+
+                <button type="submit" id="btnAgendar">INSCRIBIR</button>
+            </form>
+        </div>
+
+        <div class="div-listado">
+            <h2>Alumnos registrado</h2>
+            <div class="div-contactos">
+                
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
